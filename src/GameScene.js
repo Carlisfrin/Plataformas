@@ -230,7 +230,7 @@ var GameLayer = cc.Layer.extend({
 
 
     }, cargarMapa: function(){
-             this.mapa = new cc.TMXTiledMap(res.mapa1_tmx);
+             this.mapa = new cc.TMXTiledMap(res.mapa2_tmx);
              this.addChild(this.mapa);
 
              // Procesamiento de objetos
