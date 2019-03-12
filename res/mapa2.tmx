@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="500" height="20" tilewidth="32" tileheight="32" nextobjectid="37">
+ <tileset firstgid="1" name="tiles32" tilewidth="32" tileheight="32" tilecount="98" columns="14">
+  <image source="tiles32.png" width="448" height="224"/>
+ </tileset>
+ <layer name="PatronesFondo" width="500" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKEL9f2zDZZDwVVTVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/ATgo76o=
+  </data>
+ </layer>
+ <layer name="PatronesTerreno" width="500" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt3EFKAzEYBtABvUDxEiqu1ZViN7pTwa16/1sYoauSpGkmbZrOe/BBh7TM39XXoTOZJgAAAAAAYGSryhzbRWEAYIlG6XMAIE2fA8D49DkAnK7XwvfdJXJo278Jdh0DwNK8h3yEfPYeJEOfA0Ded8hPyG/vQbasEq9LjgFgKZ42+ffWaYbrkJuQ28iaPgeAvMtEju0+5CHkMbLWss/dlwfAOZpzH3rsmvq5YobY/i6pDj9Un7sHH4ARtXiuLHZN/RKy3qTVDC36fNf3S63peQB6+prynXo11T0zXrp/asleqqfS56VrObH/CQCgRE23zt0DpsUeMvt+rrbPa2ZtEQDYR49+0uf6HIC2RunzuefV5wCcM32uzwEYnz7X5wCM7w9jJS6f
+  </data>
+ </layer>
+ <objectgroup name="Suelos">
+  <object id="4" x="992" y="94">
+   <polyline points="0,0 446,-1 447,128 193,128 190,159 -3,163 1,-2"/>
+  </object>
+  <object id="5" x="3" y="480">
+   <polyline points="0,0 -2,-480 15992,-481 15995,159"/>
+  </object>
+  <object id="16" x="0" y="478">
+   <polyline points="0,0 481,1 480,-62 544,-62 544,-126 735,-125 735,-32 832,-32 831,163"/>
+  </object>
+  <object id="17" x="928" y="638">
+   <polyline points="0,0 1,-192 416,-191 417,-97 545,-97 544,-159 606,-159 605,-222 672,-222 671,-256 864,-255 865,-3"/>
+  </object>
+  <object id="27" x="1951" y="638">
+   <polyline points="0,0 2,-414 33,-414 33,0"/>
+  </object>
+  <object id="29" x="2080" y="639">
+   <polyline points="0,0 1,-415 31,-415 32,1"/>
+  </object>
+  <object id="31" x="2208" y="637">
+   <polyline points="0,0 1,-414 32,-413 31,1"/>
+  </object>
+  <object id="32" x="2303" y="638">
+   <polyline points="0,0 0,-159 98,-159 98,-223 161,-223 161,-286 226,-286 225,-157 321,-157 322,-191 354,-191 354,-253 448,-255 448,-159 545,-160 544,-224 642,-223 642,-159 960,-160 959,-1"/>
+  </object>
+  <object id="35" x="2336" y="98">
+   <polyline points="0,0 321,-2 321,30 1,31 1,1"/>
+  </object>
+  <object id="36" x="1855" y="638">
+   <polyline points="0,0 1,-350 33,-351 33,1"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Monedas">
+  <object id="6" x="224" y="364" width="40" height="40"/>
+  <object id="12" x="348" y="302" width="40" height="40"/>
+  <object id="13" x="201" y="255" width="40" height="40"/>
+  <object id="14" x="488" y="288" width="40" height="40"/>
+  <object id="15" x="601" y="193" width="40" height="40"/>
+ </objectgroup>
+ <objectgroup name="Enemigos">
+  <object id="19" x="391" y="413" width="40" height="40"/>
+  <object id="23" x="569" y="294" width="40" height="40"/>
+  <object id="25" x="1385" y="472" width="40" height="40"/>
+ </objectgroup>
+</map>
